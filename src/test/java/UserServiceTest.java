@@ -33,5 +33,7 @@ public class UserServiceTest {
         //3.使用TUserMapper来执行查询
         TUser user = userMapper.selectByPrimaryKey(1);
         System.out.println(user);
+
+
     }
 }
